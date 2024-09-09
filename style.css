@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-size: 18px;
+}
+
+header {
+  background-color: #0a0443;
+  padding: 10px 20px;
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+  color: #f7f7f7;
+  height: 40px;
+  padding-top: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+  margin-top: -6px;
+}
+
+/* Container */
+.container {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  padding: 20px;
+  background-color: rgba(5, 43, 60, 1);
+  border-right: 1px solid #ddd;
+  height: 500px;
+  margin-top: -2px;
+}
+
+.sidebar h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li strong {
+  font-size: 16px;
+  color: white;
+  margin-left: 60px;
+}
+
+.sidebar ul li ul {
+  margin-top: 5px;
+  padding-left: 15px;
+}
+
+.sidebar ul li ul li {
+  margin-bottom: 5px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #12bed8;
+  font-size: 14px;
+  margin-left: 60px;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Content Area */
+.content {
+  padding: 30px;
+  background-color: #fff;
+  padding-top: 50px;
+}
+
+.content h2 {
+  color: #333;
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+  }
+}
+
+img {
+  margin-left: 420px;
+  width: 400px;
+  height: 200px;
+  border-radius: 30px;
+}
+p{
+  height: 70px;
+}
